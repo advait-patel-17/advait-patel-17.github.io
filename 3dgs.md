@@ -292,6 +292,7 @@ splat = torch.cat((gaussian_color_contribution, gaussian_alpha_map.unsqueeze(-1)
 # To display, you'd convert to a viewable format.
 
 print("Conceptual splat calculation complete. Gradients can be computed for parameters.")
+```
 # In a real system, this happens for millions of Gaussians, sorted, and alpha-blended.
 content_copy
 download
